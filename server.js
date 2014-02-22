@@ -10,5 +10,8 @@ app.get('/', function(request, response) {
 	response.render('index.jade');
 });
 
+app.get('/index', function(request, response) {
+	response.redirect('/');
+});
 app.listen(port);
 console.log("Listening on " + port);
