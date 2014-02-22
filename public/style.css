@@ -1,0 +1,10 @@
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+#cubetext {
+	margin-top:80px;
+	margin-left:35px;
+	color:white;
+	float: left;
+}
