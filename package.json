@@ -2,6 +2,6 @@
 	"name" : "texasLAN",
 	"dependencies" : {
 		"express" : "latest",
-		"jade" : "latest" 
+		"swig" : "latest" 
 	}
 } 

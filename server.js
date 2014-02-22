@@ -1,18 +1,25 @@
 var express = require('express'),
+	app = express(),
+	swig = require('swig'),
 	port = 10001;
-var app = express();
+
 app.configure(function() {
 	app.use(express.static(__dirname + '/public'));
+	app.engine('html', swig.renderFile);
+	app.set('view engine', 'html');
 	app.set('views', __dirname + '/views');
-	app.set('view engine', 'jade');
+	app.set('view cache', false);
 });
 
-app.get('/', function(request, response) {
-	response.render('index.jade');
+swig.setDefaults({ cache: false });
+
+app.get('/', function(req, res) {
+	res.render('index', {});
 });
 
-app.get('/index', function(request, response) {
-	response.redirect('/');
+app.get('/index', function(req, res) {
+	res.redirect('/');
 });
+
 app.listen(port);
 console.log("Listening on " + port);
