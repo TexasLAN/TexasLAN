@@ -10,9 +10,5 @@ app.get('/', function(request, response) {
 	response.render('index.jade');
 });
 
-app.get('/test', function(request, response) {
-	response.render('companioncube.jade');
-})
-
 app.listen(port);
 console.log("Listening on " + port);
