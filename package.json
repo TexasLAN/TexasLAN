@@ -1,0 +1,6 @@
+{ 
+	"name" : "texasLAN",
+	"dependencies" : {
+		"express" : "latest" 
+	}
+} 
