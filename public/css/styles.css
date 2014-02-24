@@ -1,5 +1,6 @@
 #logo {
 	background: #eee url('../img/logo.png') center center no-repeat;
+	background-size: 50%;
 	width: 100%;
 	height: 100%;
 	z-index:1;
