@@ -1,18 +1,18 @@
 #logo {
-	background: #eee url('../img/logo.png') center center no-repeat;
-	background-size: 50%;
-	width: 100%;
-	height: 100%;
-	z-index:1;
+    background: #eee url('../img/logo.png') center center no-repeat;
+    background-size: 50%;
+    width: 100%;
+    height: 100%;
+    z-index:1;
 }
 
 .navbar-brand, .navbar-right > li {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .title {
-	font: 85px/85px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
-	padding-top: 50px;
+    font: 85px/85px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+    padding-top: 50px;
     text-align: center;
     font-size: 600%;
 }
@@ -70,8 +70,8 @@
     padding-top: 30px;
 }
 
-	.mem-row:first-of-type {
-    	padding-top: 50px;
+    .mem-row:first-of-type {
+        padding-top: 50px;
     }
 
 .cut-out {
@@ -86,9 +86,9 @@
     padding-bottom: 100px;
 }
 
-	.interested-sect a {
-		color: #0014FF;
-	}
+    .interested-sect a {
+        color: #0014FF;
+    }
 
 .interested-info {
     padding-top: 50px;
