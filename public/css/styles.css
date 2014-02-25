@@ -41,6 +41,13 @@
     width: 200px;
 }
 
+.members-sect {
+    background-color: #050A47;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
 .circle:hover {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -57,13 +64,6 @@
     text-align: center;
     padding-top: 10px;
     font: 2.2em/1.0em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
-}
-
-.members-sect {
-    background-color: #050A47;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 50px;
 }
 
 .mem-row {
@@ -92,8 +92,5 @@
 
 .interested-info {
     padding-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
     font: 2.0em/1.2em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
 }
