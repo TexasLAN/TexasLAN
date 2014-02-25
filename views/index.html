@@ -1,113 +1,120 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" media="all">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <meta charset="UTF-8">
-    <title>Texas λαν</title>
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <!-- NavBar n' Stuff -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <col-md- class="sr-only">Toggle navigation</col-md->
-            <col-md- class="icon-bar"></col-md->
-            <col-md- class="icon-bar"></col-md->
-            <col-md- class="icon-bar"></col-md->
-          </button>
-          <a class="navbar-brand" onclick="$('html,body').animate({scrollTop: $('body').offset().top}, 1000)">Texas LAN</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a onclick="$('html,body').animate({scrollTop: $('.aboutus-sect').offset().top}, 1000)">About Us</a></li>
-            <li><a onclick="$('html,body').animate({scrollTop: $('.members-sect').offset().top}, 1000)">Founding Members</a></li>
-            <li><a onclick="$('html,body').animate({scrollTop: $('.interested-sect').offset().top}, 1000)">How to Join</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Texas λαν</title>
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <!-- NavBar n' Stuff -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <col-md- class="sr-only">Toggle navigation</col-md->
+                        <col-md- class="icon-bar"></col-md->
+                        <col-md- class="icon-bar"></col-md->
+                        <col-md- class="icon-bar"></col-md->
+                    </button>
+                    <a class="navbar-brand" onclick="$('html,body').animate({scrollTop: $('body').offset().top}, 1000)">Texas LAN</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a onclick="$('html,body').animate({scrollTop: $('.aboutus-sect').offset().top}, 1000)">About Us</a></li>
+                        <li><a onclick="$('html,body').animate({scrollTop: $('.members-sect').offset().top}, 1000)">Founding Members</a></li>
+                        <li><a onclick="$('html,body').animate({scrollTop: $('.interested-sect').offset().top}, 1000)">How to Join</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <!-- Big Logo Picture -->
-    <div id="logo"></div>
+        <!-- Big Logo Picture -->
+        <div id="logo"></div>
 
-    <!-- About Us Section -->
-    <div class="aboutus-sect">
-      <h1 class="title">About Us</h1>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2 class="aboutus-title">What are we?</h2>
-          <p class="aboutus-info">We are a co-ed social fraternity for Computer Science majors at the University of Texas at Austin. We will be  accepting applications from all students currently pursuing a degree in CS. We are focused on social activities and building community in a laid back, enjoyable environment. We will have a simple rush and interview process where we will get to know you and determine if we think you will be a good fit. </p>
+        <!-- About Us Section -->
+        <div class="aboutus-sect">
+            <div class="container">
+                <h1 class="title">About Us</h1>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="aboutus-title">What are we?</h2>
+                        <p class="aboutus-info">We are a co-ed social fraternity for Computer Science majors at the University of Texas at Austin. We will be  accepting applications from all students currently pursuing a degree in CS. We are focused on social activities and building community in a laid back, enjoyable environment. We will have a simple rush and interview process where we will get to know you and determine if we think you will be a good fit. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Members Section -->
-    <div class="members-sect">
-      <h1 class="title">Our Founding Members</h1>
-      <div class="mem-row row">
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/reid.jpg">
-          <p class=".lead name">Reid McKenzie</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/robert.jpg">
-          <p class=".lead name">Robert Lynch</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/bri.jpg">
-          <p class=".lead name">Bri Connelly</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/claudio.jpg">
-          <p class=".lead name">Claudio Wilson</p>
-        </div>
-      </div>
+        <!-- Members Section -->
+        <div class="members-sect">
+            <h1 class="title">Our Founding Members</h1>
+            <div class="container">
+                <div class="mem-row row">
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/reid.jpg">
+                        <p class=".lead name">Reid McKenzie</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/robert.jpg">
+                        <p class=".lead name">Robert Lynch</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/bri.jpg">
+                        <p class=".lead name">Bri Connelly</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/claudio.jpg">
+                        <p class=".lead name">Claudio Wilson</p>
+                    </div>
+                </div>
 
-      <div class="mem-row row">
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/greg.jpg">
-          <p class=".lead name">Greg Cerna</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/andy.jpg">
-          <p class=".lead name">Andy Anderson</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/masha.jpg">
-          <p class="name">Masha Belyaeva</p>
-        </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/dan.jpg">
-          <p class=".lead name">Dan Rutledge</p>
-        </div>
-      </div>
+                <div class="mem-row row">
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/greg.jpg">
+                        <p class=".lead name">Greg Cerna</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/andy.jpg">
+                        <p class=".lead name">Andy Anderson</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/masha.jpg">
+                        <p class="name">Masha Belyaeva</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/dan.jpg">
+                        <p class=".lead name">Dan Rutledge</p>
+                    </div>
+                </div>
 
 
-      <div class="mem-row row">
-        <div class="col-md-3 col-md-offset-3">
-          <img class="cut-out circle mem" src="/img/josh.jpg">
-          <p class=".lead name">Josh Slocum</p>
+                <div class="mem-row row">
+                    <div class="col-md-3 col-md-offset-3">
+                        <img class="cut-out circle mem" src="/img/josh.jpg">
+                        <p class=".lead name">Josh Slocum</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="cut-out circle mem" src="/img/david.jpg">
+                        <p class=".lead name">David Wetterau</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3">
-          <img class="cut-out circle mem" src="/img/david.jpg">
-          <p class=".lead name">David Wetterau</p>
+
+        <!-- Footer -->
+        <div class="interested-sect">
+            <div class="container">
+                <h1 class="title">Interested in Joining?</h1>
+                <div class="row">
+                    <p class="interested-info">We are currently taking steps to become a real organization. This involves creating bylaws, a mission statement, and defining our role. Since we are currently not accepting applications, you may use <a href="https://docs.google.com/forms/d/1UCcSCb1Gx7SKIHYI7vS7Qsv7DFecukACYKevVYA6UqA/viewform" target="_blank">this form</a> to express interest in joining.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Footer -->
-    <div class="interested-sect">
-      <h1 class="title">Interested in Joining?</h1>
-      <div class="row">
-        <p class="interested-info">We are currently taking steps to become a real organization. This involves creating bylaws, a mission statement, and defining our role. Since we are currently not accepting applications, you may use <a href="https://docs.google.com/forms/d/1UCcSCb1Gx7SKIHYI7vS7Qsv7DFecukACYKevVYA6UqA/viewform" target="_blank">this form</a> to express interest in joining.</p>
-      </div>
-    </div>
-
-  </body>
+    </body>
 </html>
