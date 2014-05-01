@@ -1,7 +1,0 @@
-{ 
-	"name" : "texasLAN",
-	"dependencies" : {
-		"express" : "latest",
-		"swig" : "latest" 
-	}
-} 
