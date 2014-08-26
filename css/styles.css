@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
 
 body {
   font-family: 'Lato', sans-serif;
@@ -96,4 +97,29 @@ a {
 
 #contact {
   height: 40%;
+}
+
+#contactSocial {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#contactSocial a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+i {
+  color: #34495e;
+  border-radius: 50%;
+  padding: 15px;
+  position: relative;
+  background: white;
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+i:hover {
+  top: -3px;
 }
