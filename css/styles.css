@@ -1,96 +1,82 @@
-#logo {
-    background: #eee url('../img/logo.svg') center center no-repeat;
-    background-size: 50%;
-    width: 100%;
-    height: 100%;
-    z-index:1;
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100%;
+  color: #fff;
+  font-size: 25px;
 }
 
-.navbar-brand, .navbar-right > li {
-    cursor: pointer;
+.section {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.title {
-    font: 85px/85px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 600%;
+h2 {
+  line-height: 80px;
+  font-size: 40px;
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+  color:#2A85BA;
 }
 
-.aboutus-sect {
-    background-color: #CC5500;
-    color: white;
-    padding-bottom: 50px;
-    padding-top: 5px;
+h3 {
+  margin: 0;
 }
 
-.aboutus-title {
-    padding-top: 15px;
-    font: 3.0em/1.0em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+#content {
+  height: 100vh;
 }
 
-.aboutus-info {
-    font: 2.0em/1.2em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+#header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  position: relative;
+  height: 100%;
 }
 
-.circle {
-    -webkit-border-radius: 50em;
-    -moz-border-radius: 50em;
-    border-radius: 50em;
-    height: 200px;
-    width: 200px;
+#letters {
+  font-weight:300;
+  font-size: 80px;
+  margin: 0;
 }
 
-.members-sect {
-    background-color: #050A47;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 50px;
+#about {
+  height: 60%;
+  position: relative;
 }
 
-.circle:hover {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    opacity: .5;
+#founders {
+  height: 100%;
 }
 
-.mem {
-    margin: auto;
-    display: block;
+.founderImage {
+  float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-repeat: no-repeat;
+	background-size: 200px !important;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-.name {
-    text-align: center;
-    padding-top: 10px;
-    font: 2.2em/1.0em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+.founderContent {
+  float: left;
+  margin-left: 20px;
+  width: 700px;
 }
 
-.mem-row {
-    padding-top: 30px;
-}
-
-    .mem-row:first-of-type {
-        padding-top: 50px;
-    }
-
-.cut-out {
-    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-    box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-}
-
-.interested-sect {
-    background-color: #BFEFFF;
-    padding-top: 5px;
-    padding-bottom: 100px;
-}
-
-    .interested-sect a {
-        color: #0014FF;
-    }
-
-.interested-info {
-    padding-top: 50px;
-    font: 2.0em/1.2em 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', Arial, sans-serif;
+.founderContent p {
+  font-size: 20px;
 }
