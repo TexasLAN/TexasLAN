@@ -16,6 +16,7 @@ body {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
 }
 
 h2 {
@@ -59,12 +60,7 @@ a {
 }
 
 #about {
-  height: 350px;
   position: relative;
-}
-
-#founders {
-  height: 2400px;
 }
 
 .founder {
@@ -109,7 +105,11 @@ a {
 }
 
 #contact {
-  height: 40%;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  margin-bottom: 0;
 }
 
 #contactSocial {
@@ -120,6 +120,7 @@ a {
 #contactSocial a {
   margin: 5px;
   text-decoration: none;
+  line-height: 70px;
 }
 
 i {
@@ -135,4 +136,40 @@ i {
 
 i:hover {
   top: -3px;
+}
+
+/* ~*~*~ Responsive Design ~*~*~ */
+@media screen and (max-width: 960px) {
+  .section {
+    width: auto;
+    margin: 0 20px;
+  }
+  
+  #crest {
+    width: 80%;
+  }
+  
+  #founders h3 {
+    text-align: center;
+  }
+
+  .founderImage {
+    clear: both;
+    margin-left: calc(50% - 100px);
+  }
+  
+  .founderTitle {
+    display: block;
+  }
+  
+  .founderTitle::before {
+    content: "";
+    margin: 0;
+  }
+  
+  .founderContent {
+    margin-left: 0;
+    clear: both;
+    width: inherit;
+  }
 }
