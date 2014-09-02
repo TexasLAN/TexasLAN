@@ -16,7 +16,7 @@ body {
   height: 100%;
   width: 100%;
   background-size: 100%;
-  background: url('../img/bg.png') no-repeat;
+  background: #277FB2 url('../img/bg.png') no-repeat;
 }
 
 h1 {
