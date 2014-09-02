@@ -1,15 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 @import url(http://www.markmurray.co/codepen/entypostyle.css);
 
+
 body {
   font-family: 'Lato', sans-serif;
-  background: url('../img/bg.png') no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   margin: 0;
   height: 100%;
   color: #fff;
   font-size: 25px;
+}
+
+#bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-image: url('../img/bg.png');
+  background-attachment: fixed;
 }
 
 .section {
@@ -59,8 +69,17 @@ a {
   width: 450px;
 }
 
-#about {
-  position: relative;
+#rushCalendar {
+  text-align: center;
+}
+
+#rushCalendar a {
+  line-height: 70px;
+  color: #fff;
+}
+
+#rushCalendar i {
+  margin-left: 10px;
 }
 
 .founder {
