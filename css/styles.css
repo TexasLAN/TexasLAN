@@ -269,6 +269,11 @@ i:hover {
 
 /*THUMBNAIL HOVERPOPUPS*/
 
+.center {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .founderPopup .founderContent * {
   width: 200px;
 }
