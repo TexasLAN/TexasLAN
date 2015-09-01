@@ -50,6 +50,7 @@ body {
 }
 
 #rush,
+#service,
 #founders {
    padding-top: 8vh;
    background-color: rgba(255, 255, 255, 0.9);
@@ -57,6 +58,8 @@ body {
 
 #rush p,
 #rush h3,
+#service p,
+#service h3,
 #founders p,
 #founders h3 {
   color: #080808;
@@ -64,6 +67,12 @@ body {
 
 #rush a {
   color: #3754e7;
+}
+
+.service-img img {
+  height: 250px;
+  width: auto;
+  padding: 10px;
 }
 
 #board {
