@@ -49,14 +49,21 @@ body {
   text-align: center;
 }
 
+#rush,
 #founders {
-  padding-top: 8vh;
-  background-color: rgba(255, 255, 255, 0.9);
-}
+   padding-top: 8vh;
+   background-color: rgba(255, 255, 255, 0.9);
+ }
 
+#rush p,
+#rush h3,
 #founders p,
 #founders h3 {
   color: #080808;
+}
+
+#rush a {
+  color: #3754e7;
 }
 
 #board {
@@ -81,7 +88,6 @@ body {
   padding: 10px;
   text-align: center;
 }
-
 
 .section {
   width: 960px;
