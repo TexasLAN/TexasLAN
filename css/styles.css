@@ -69,6 +69,12 @@ body {
   color: #3754e7;
 }
 
+.rush-img img {
+  height: 400px;
+  width: auto;
+  padding: 10px;
+}
+
 .service-img img {
   height: 250px;
   width: auto;
