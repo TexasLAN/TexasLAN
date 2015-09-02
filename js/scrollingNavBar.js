@@ -18,10 +18,9 @@ $(document).scroll(function() {
     var transparency = $(this).scrollTop() / dHeight;
 
     if (dHeight >= $(this).scrollTop()) {
-        var textColor = 255 - transparency * 136;
-        //console.log('rgba(' + textColor + ',' + textColor + ',' + textColor + ',1)');
+        var textColor = Math.floor(255 - transparency * 136);
         for(var i = 0; i < elems.length; i++) {
-            elems[i].style.color = rgbToHex(textColor,textColor,textColor); // why doesnt this work??
+            elems[i].style.color = rgbToHex(textColor,textColor,textColor);
 
         }
 
