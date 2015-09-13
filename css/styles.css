@@ -336,29 +336,6 @@ i:hover {
   margin: 0;
 }
 
-/*.founderPopup .founderContent * {*/
-  /*width: 200px;*/
-/*}*/
-
-/*.founderContent p {*/
-  /*margin-top: 15px;*/
-/*}*/
-
-/*.thumbnail  {*/
-  /*width: 250px;*/
-  /*background-color: rgba(0,0,0,0);*/
-  /*position: relative;*/
-  /*float: left;*/
-  /*/!*z-index: 0;*!/*/
-/*}*/
-
-/*.thumbnail:hover {*/
-  /*background-color: #e9e9e2;*/
-  /*z-index: 1000;*/
-  /*color: #335500;*/
-  /*text-decoration: none;*/
-/*}*/
-
 .thumbnail span { /*CSS for enlarged image*/
   /*width: 250px;*/
   position: absolute;
@@ -374,13 +351,8 @@ i:hover {
   left: -1px;
 }
 
-/*.thumbnail span img { /!*CSS for enlarged image*!/*/
-  /*border-width: 0px;*/
-  /*/!*padding: 2px;*!/*/
-/*}*/
-
-/*.thumbnail:hover span { /!*CSS for enlarged image on hover*!/*/
-  /*visibility: visible;*/
-  /*/!*top: 0px; /!* use IF IE6 style to correct IE6 positions of larger image relative to thumb *!/!*/
-  /*/!*left: 0px;/!*position where enlarged image should offset horizontally *!/!*/
-/*}*/
+@media (max-width: 767px) {
+  #letters {
+    margin-top: 30%;
+  }
+}

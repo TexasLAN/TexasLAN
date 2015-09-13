@@ -6,6 +6,15 @@ var elems;
 
 $(document).ready(function() {
     setupNavBar();
+    if(!isNotMobile()) {
+        // Not transparent
+        for(var i = 0; i < elems.length; i++) {
+            elems[i].style.color = rgbToHex(119,119,119);
+        }
+
+        $('nav').css('border-width', '1');
+        $('nav').css('background', 'rgba(248,248,248,1)');
+    }
 });
 
 
@@ -14,10 +23,13 @@ $(document).ready(function() {
  */
 
 $(document).scroll(function() {
+    var dWidth = $(window).width();
+
     var dHeight = $(window).height();
     var transparency = $(this).scrollTop() / dHeight;
 
-    if (dHeight >= $(this).scrollTop()) {
+    if (dHeight >= $(this).scrollTop() && isNotMobile()) {
+        // Part transparent
         var textColor = Math.floor(255 - transparency * 136);
         for(var i = 0; i < elems.length; i++) {
             elems[i].style.color = rgbToHex(textColor,textColor,textColor);
@@ -27,6 +39,7 @@ $(document).scroll(function() {
         $('nav').css('border-width', '0');
         $('nav').css('background', 'rgba(248,248,248,' + transparency + ')');
     } else {
+        // Not transparent
         for(var i = 0; i < elems.length; i++) {
             elems[i].style.color = rgbToHex(119,119,119);
         }
@@ -36,6 +49,10 @@ $(document).scroll(function() {
 
     }
 });
+
+function isNotMobile() {
+    return ($(window).width() > 767);
+}
 
 function setupNavBar() {
     elems = document.getElementsByClassName("navtext");
