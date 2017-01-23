@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lambda Alpha Nu</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="bg"></div>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navtext" href="../">Texas LAN</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../#about" class="navtext">About</a></li>
+                <li><a href="#" class="navtext">Rush</a></li>
+                <li><a href="../service/" class="navtext">Service</a></li>
+                <li><a href="../founders/" class="navtext">Founders</a></li>
+                <li><a href="../#board" class="navtext">Current Board</a></li>
+                <li><a href="#contact" class="navtext">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<section id="rush">
+    <div class="container">
+        <h2>Rush</h2>
+        <div class="row row-centered">
+            <div class="span3 rush-img col-centered">
+                <img src="../img/rush/rushCover.JPG" />
+            </div>
+        </div>
+        <br />
+        <p>LAN cultivates startup founders, engineers at top tech companies, grad students, TA's, chefs, hackathon organizers, but most importantly, good people who are passionate about computer science. We are focused on social activities and building community in a laid back, enjoyable environment.</p>
+        <br />
+        <p>LAN has started its rush process for Fall 2016, please checkout the <a href="https://www.facebook.com/groups/625500650946704/">Facebook group</a> for the latest infomation.</p>
+        <p>Info sessions for rush will be held on 9/6 and 9/7 at 6 P.M. in <a href="http://maps.google.com/maps?saddr=&daddr=2505+University%20Ave+78712+Austin+78712">BUR 220</a>.</p>
+        <br/>
+    </div>
+    <div class="container">
+        <div class="row-centered">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signMeUp">
+                Sign Me Up
+            </button>
+
+            <div class="modal fade" id="signMeUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="myModalLabel" style="color: black">Sign Me Up</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form id="rush-form" action="" method="POST" target="no-target">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="major">Major</label>
+                                    <input type="text" class="form-control" id="major" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="gradYear">Expected Graduation Year</label>
+                                    <input class="form-control" type="text" id="gradYear" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input class="form-control" type="text" id="phoneNumber" placeholder="">
+                                </div>
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <p>Questions? Contact <a href="mailto:general@texaslan.org">general@texaslan.org</a></p>
+        <p>For Rush related questions, contact <a href="mailto:rush@texaslan.org">rush@texaslan.org</a></p>
+        <p>Want to start a Lambda Alpha Nu chapter at your university? Contact <a href="mailto:expansion@lambdaalphanu.org">expansion@lambdaalphanu.org</a></p>
+
+        <div id="contactSocial">
+            <a href="https://www.facebook.com/texaslambdaalphanu">
+                <i class='fa fa-facebook-official'></i>
+            </a>
+            <a href="https://twitter.com/lambdaalphanu">
+                <i class='fa fa-twitter'></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="https://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="../js/cardClick.js"></script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-48035110-3', 'auto');
+    ga('send', 'pageview');
+</script>
+<script>
+    $("#rush-form").on('submit', function() {
+        //Get values of each field on the form
+        var firstName = encodeURIComponent($('#firstName').val());
+        var lastName  = encodeURIComponent($('#lastName').val());
+        var email     = encodeURIComponent($('#email').val());
+        var major     = encodeURIComponent($('#major').val());
+        var gradYear  = encodeURIComponent($('#gradYear').val());
+        var phoneNumber  = encodeURIComponent($('#phoneNumber').val());
+
+        //Static IDs of the form elements in Google Forms, used to build POST URL
+        //This is a good guide on obtaining the values used for this form: https://github.com/heaversm/google-custom-form
+        var fnID = "entry.1272715718";
+        var lnID = "entry.1440594361";
+        var emID = "entry.1969544381";
+        var mjID = "entry.496815345";
+        var gdID = "entry.474555666";
+        var phID = "entry.1933292045";
+
+        var baseURL = 'https://docs.google.com/forms/d/154rwda0CDMauCX-ecIYpqjj4qqNcYUrvFXLAQZaoXfo/formResponse?';
+        var submitRef = '&submit=Submit';
+        var submitURL = (baseURL + fnID + "=" + firstName + "&" + lnID + "=" + lastName + "&" + mjID
+                         + "=" + major + "&" + gdID + "=" + gradYear + "&" + emID + "=" + email
+                         + "&" + phID + "=" + phoneNumber + submitRef);
+        $(this)[0].action=submitURL;
+    })
+</script>
+
+</body>
+</html>

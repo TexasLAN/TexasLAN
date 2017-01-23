@@ -1,155 +1,225 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lambda Alpha Nu</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
 <body>
-    <div id="bg"></div>
-    <div id="header">
-        <h1 id="letters">Lambda Alpha Nu</h1>
-        <img id="crest" src="img/crest.png" />
+<div id="bg"></div>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navtext" href="#">Texas LAN</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about" class="navtext">About</a></li>
+                <li><a href="rush/" class="navtext">Rush</a></li>
+                <li><a href="service/" class="navtext">Service</a></li>
+                <li><a href="founders/" class="navtext">Founders</a></li>
+                <li><a href="#board" class="navtext">Current Board</a></li>
+                <li><a href="#contact" class="navtext">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </div>
-    <div id="content">
+</nav>
+
+<section id="main">
+    <div class="container">
+        <div id="header">
+            <h1 id="letters">Lambda Alpha Nu</h1>
+            <img id="crest" src="img/crest.png" />
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
         <h2>About Us</h2>
-        <div id="about" class="section">
-			<p>We are Lambda Alpha Nu, the co-ed social fraternity for Computer Science majors at the University of Texas at Austin.</p>
+        <p>We are Lambda Alpha Nu, the co-ed social fraternity for students interested in computing and technology at the University of Texas at Austin. ΛΑΝ cultivates future startup founders, engineers at top tech companies, graduate students, teaching assistants, front-end developers, and most importantly, good people who are passionate about technology. We are focused on social activities and building community in a laid back, inclusive environment. We will be accepting applications from all students who are interested in tech.</p>
+    </div>
+</section>
 
-			<p>ΛAN cultivates future startup founders, engineers at top tech companies, graduate students, teaching assistants, chefs, and most importantly, good people who are passionate about computer science. We are focused on social activities and building community in a laid back, enjoyable environment.</p>
+<section id="board">
+    <div class="container-fluid">
+        <h2>Board of Officers</h2>
+        <div class="founders section">
 
-			<p>We will be accepting applications from all students who are interested in tech.</p>
+            <div class="row row-centered">
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/claire.jpg');"></div>
+                    <h3 class="founderName">Claire Bingham</h3>
+                    <h3 class="founderTitle">President</h3>
+
+                    <div class="card-detail">
+                        <p>I enjoy digital design, knitting, animals, napping, films, and coffee. When I’m not in bed on my laptop with no pants and all the lights off, you can find me petting the closest dog. I also play viola and guitar. I’m all about exploring Austin and spending way too much money on food. I love being a part of LAN and can’t wait to see what’s in our future!</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/drew.jpg');"></div>
+                    <h3 class="founderName">Drew Romanyk</h3>
+                    <h3 class="founderTitle">VP of Administration</h3>
+
+                    <div class="card-detail">
+                        <p>Just your friendly neighborhood Drew, who likes long walks on the beach, baking apple pie cookies, ordaining weddings, and waltzing to some music. Some say I’m the reason for the teardrops on Taylor Swift’s guitar. I’m glad LAN exists as it’s a great way for people to really connect with one another and become a family who cares for each other.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/braden.jpg');"></div>
+                    <h3 class="founderName">Braden Stotmeiseter</h3>
+                    <h3 class="founderTitle">VP of New Member Services</h3>
+
+                    <div class="card-detail">
+                        <p>First and foremost I value my relaxation time, whether that be relaxing in a hammock on the greenbelt, spending all my money on great food and eating ramen for the rest of the week, or watching some HBO. I'm from Sugar Land, Texas, and I'm going into my fourth year at UT for EE/CS. My favorite color is burnt orange.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/Thomas.jpg');"></div>
+                    <h3 class="founderName">Thomas Gaubert</h3>
+                    <h3 class="founderTitle">Treasurer</h3>
+
+                    <div class="card-detail">
+                        <p>Hey! I love all things tech, food, and outdoors. You can find me organizing hackathons, playing video games, or (most likely) lurking on Slack. I joined LAN my freshman year and have since met some of my best friends. LAN is special to me since it provides such a loving community made up of so many unique people. I'm excited for the year ahead and can't wait to see where it takes us!</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/estevie.jpg');"></div>
+                    <h3 class="founderName">Steven Diaz</h3>
+                    <h3 class="founderTitle">VP of Social Affairs</h3>
+
+                    <div class="card-detail">
+                        <p>Doing things differently interests me. Anytime I'm on Slack, I'm finding ways to fit emojis in conversations. Nothing makes me happier than a building something cool and implementing an idea. Knowing that I'm contributing to such a tight knit community drives my love for LAN, because Lambda Alpha Nu believes in Lambda Alpha You.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/sarah.jpg');"></div>
+                    <h3 class="founderName">Sarah Gorring</h3>
+                    <h3 class="founderTitle">VP of Service Activities</h3>
+
+                    <div class="card-detail">
+                        <p>I believe dogs are better than people will ever be, and are too good and pure for this world. I am an avid binge watcher of television shows, so let me know if you have any suggestions. I am truly grateful for the opportunity to learn new things through all of the amazing people I meet. LAN has made a huge positive impact on my life, and I couldn’t imagine spending time with anyone better. I hope that we can all work together to make an amazing positive impact on the people around us.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/colt.jpg');"></div>
+                    <h3 class="founderName">Colt Whaley</h3>
+                    <h3 class="founderTitle">VP of Standards</h3>
+
+                    <div class="card-detail">
+                        <p>Hey everyone, Colt Whaley here. LAN’s busiest music nerd. When I’m not grinding away in the lab, you can safely assume I’m at home asleep or playing video games. LAN’s the best decision I made in college and has helped forge some of the closest friendships I have. If you ever need to find me, just look for the aux cord. I’m probably close by.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/akhil.jpg');"></div>
+                    <h3 class="founderName">Akhil Velpuri</h3>
+                    <h3 class="founderTitle">Risk Management</h3>
+
+                    <div class="card-detail">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/samt.jpg');"></div>
+                    <h3 class="founderName">Sam Tallent</h3>
+                    <h3 class="founderTitle">Webmaster</h3>
+
+                    <div class="card-detail">
+                        <p>I've always loved taking things apart to better understand how they work, whether it be cars, computers, or programs. I spend my free time singing, discovering new music, learning to cook, gaming, and programming.  I love all my friends I've made in LAN and look forward to another year of hanging out and working with them.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/davidg.jpg');"></div>
+                    <h3 class="founderName">David Guererro</h3>
+                    <h3 class="founderTitle">Brotherhood</h3>
+
+                    <div class="card-detail">
+                        <p>Sup. I've always yearned for a diverse lifestyle that gives me great opportunities; hence I'm here at UT Austin, and even more so in LAN. I love being a student, pursuing my interests in computer science, business/consulting, psychology, and economics. I've never been more excited for a new school year! I'm hoping to help LAN grow substantially with the help of my fellow officers and members, as well as opening my horizons to international travel, business, and projects.</p>
+                    </div>
+                </div>
+
+                <div class="span4 card col-centered">
+                    <div class="founderImage" style="background: url('./img/Nick.jpg');"></div>
+                    <h3 class="founderName">Nick Ginther</h3>
+                    <h3 class="founderTitle">Historian</h3>
+
+                    <div class="card-detail">
+                        <p>Hello, I'm Nick. I enjoy cooking, photoshop, video games I played in middle school, and this fad called "computer". San Antonio is where I grew up and where my two English Springer Spaniel puppers reside, so I will always have love for the 210. To me, LAN is a close knit, loving family in the sometimes cold and all of the time competitive field of CS.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2>Current Board</h2>
-        <div id="founders" class="section">
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/jena.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Jena Cameron <span class="founderTitle">President</span></h3>
-					<p>I love to be outdoors around no technology, but I think there are upsides to having multiple screens. I think phone hip-holsters are underappreciated and wedges are my favorite shoe invention. I enjoy buzzfeed quizzes and I always have at least 6 tabs open on my laptop at all times. I believe LAN is where you can meet some of your new best friends.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/reid.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Reid McKenzie <span class="founderTitle">VP of Administration</span></h3>
-					<p>I pick locks, play tabletop games, predict branches and compile code. I wanted to help start Texas LAN because after three years in the CS department I wanted an extracurricular social group where I could meet and chill with other people from the major.</p>
-				</div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/rainier.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Rainier Ababao <span class="founderTitle">VP of Social Affairs</span></h3>
-					<p>I try on hats and think about the future. Added computer science as a second major during my sophomore year with no coding experience and no regrets. I like food trucks, machine learning, going to hackathons for fun, and using the Oxford comma. I believe LAN will inherit the earth.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/estevie.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Steven Diaz <span class="founderTitle">VP of Service Activities</span></h3>
-					<p>Doing things differently interests me. Any time I'm on Slack, I'm finding ways to fit emojis in conversations. Nothing makes happier than a building something cool and implementing an idea. Knowing that I'm contributing to such a tight knit community drives my love for LAN, because Lambda Alpha Nu believes in Lambda Alpha You.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/cameron.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Cameron Piel <span class="founderTitle">VP of New Member Services</span></h3>
-					<p>While Computer Science is my life and I wouldn't replace it with anything, cooking is my passion. Through Lambda Alpha Nu I have been able to expand beyond my expectations  of both of these things. In my free time (ha) I enjoy watching sports, playing video games, and shoving my food, sometimes literally, down my friends' throats.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/adolfo.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Adolfo Müller <span class="founderTitle">VP of Standards</span></h3>
-					<p>If you ever need me I will be in my apartment studying, playing video games or napping. I enjoy going to the gym to relieve stress and dancing with my friends in and outside of clubs. I decided to become a part of Texas LAN because I wanted to meet people who were in CS but not focus exclusively on CS-related activities. I ran for office because I truly loved it and the people in it during my first year and I want to help it flourish.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-		</div>
-		<h2>Core Officers</h2>
-		<div id="founders" class="section">
-			<div class="founder">
-                <div class="founderImage" style="background: url('img/davidg.jpg');"></div>
-                <div class="founderContent">
-                    <h3>David Guerrero <span class="founderTitle">Treasurer</span></h3>
-					<p>Sup. I've always yearned for a diverse lifestyle that gives me great opportunities; hence I'm here at UT Austin, and even more so in LAN. I love being a student, pursuing my interests in computer science, business/consulting, psychology, and economics. I've never been more excited from a new school year! I'm hoping to help LAN grow substantially with the help of my fellow officers and members, as well as opening my horizons to international travel, business, and projects.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/drew.jpg');"></div>
-                <div class="founderContent">
-                    <h3>Drew Romanyk <span class="founderTitle">Webmaster</span></h3>
-					<p>Just your friendly neighborhood Drew, who likes long walks on the beach, baking apple pie cookies, ordaining weddings, and waltzing to some music. Some say I’m the reason for the teardrops on Taylor Swift’s guitar. I’m glad LAN exists as it’s a great way for people to really connect with one another and become a family who cares for each other.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/danielle.jpg');"></div>
-                <div class="founderContent">
-					<h3>Danielle Cogburn <span class="founderTitle">Brotherhood</span></h3>
-					<p>Hi I'm Danielle, and I'm a local Austinite. I live the Birkenstock lifestyle, I like to mountain bike, and I like to hook 'em ;) . LAN made me feel like part of UT. I will be the one who's dancing too much at parties.</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
-            <div class="founder">
-                <div class="founderImage" style="background: url('img/claire.jpg');"></div>
-                <div class="founderContent">
-					<h3>Claire Bingham <span class="founderTitle">Historian</span></h3>
-					<p>I enjoy digital design, knitting, animals, napping, films, and coffee. When I’m not in bed on my laptop with no pants and all the lights off, you can find me petting the closest dog. I also play viola and guitar. I’m all about exploring Austin and spending way too much money on food. I love being a part of LAN and can’t wait to see what’s in our future!</p>
-                </div>
-                <div style="clear:both;"></div>
-            </div>
+    </div>
+</section>
+
+<section id="above_contact"></section>
+
+<section id="contact">
+    <div class="container">
+        <p>Questions? Contact <a href="mailto:general@texaslan.org">general@texaslan.org</a></p>
+        <p>For Rush related questions, contact <a href="mailto:rush@texaslan.org">rush@texaslan.org</a></p>
+        <p>Want to start a Lambda Alpha Nu chapter at your university? Contact <a href="mailto:expansion@lambdaalphanu.org">expansion@lambdaalphanu.org</a></p>
+
+        <div id="contactSocial">
+            <a href="https://www.facebook.com/texaslambdaalphanu">
+                <i class='fa fa-facebook-official'></i>
+            </a>
+            <a href="https://twitter.com/lambdaalphanu">
+                <i class='fa fa-twitter'></i>
+            </a>
         </div>
-        <h2>Contact Us</h2>
-		<div id="contact" class="section">
-      <p>Visit our founders page <a href="www.texaslan.org/history/founders.html">here</a>.</p>
-			<p>For any questions, feel free to contact the officers by
-				emailing <a href="mailto:general@texaslan.org">general@texaslan.org</a>
-				or reaching out to one of us directly. Rush related questions
-				should be directed
-				to <a href="mailto:rush@texaslan.org">rush@texaslan.org</a>. For
-				specific questions best suited for contact with our president,
-				contact <a href="mailto:root@texaslan.org">root@texaslan.org</a>.</p>
-			<p>If you are from another university and are interested in opening your
-				own chapter of Lambda Alpha Nu, please contact us at
-				<a href="mailto:expansion@lambdaalphanu.org">expansion@lambdaalphanu.org</a>.
-			<p>Be sure to follow us on Twitter and like us on Facebook to stay up to date.</p>
-			<div id="contactSocial">
-				<a href="https://www.facebook.com/texaslambdaalphanu">
-					<i class='icon-facebook'></i>
-				</a>
-				<a href="https://twitter.com/lambdaalphanu">
-					<i class='icon-twitter'></i>
-				</a>
-			</div>
-		</div>
-	</div>
-    <!-- Google Analytics -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
+    </div>
+</section>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="https://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="js/scrollingNavBar.js"></script>
+<script type="text/javascript" src="js/cardClick.js"></script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-48035110-3', 'auto');
-        ga('send', 'pageview');
-    </script>
+    ga('create', 'UA-48035110-3', 'auto');
+    ga('send', 'pageview');
+</script>
+
 </body>
-
 </html>
